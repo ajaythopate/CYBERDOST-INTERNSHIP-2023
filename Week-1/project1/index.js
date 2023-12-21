@@ -120,3 +120,9 @@ function filterBlogs() {
     });
 }
 
+// Event listeners
+document.getElementById('addBlogButton').addEventListener('click', addBlog);
+
+document.addEventListener('click', deleteBlog);
+document.getElementById('searchInput').addEventListener('input', filterBlogs);
+
