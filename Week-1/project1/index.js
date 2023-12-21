@@ -32,3 +32,23 @@ function fetchBlogs() {
 }
 
 fetchBlogs();
+
+//Add a new blog
+function addblog() {
+    const blogTitleInput = document.getElementById('blogTitleInput');
+    const blogContentinput = document.getElementById('blogContentInput');
+
+    const blogTitle = blogTitleInput.value;
+    const blogContent = blogContentinput.value;
+
+    if (blogTitle.trim() === '' || blogContent.trim() === '') {
+        alert('Please enter a title and content for the blog.');
+        return;
+    }
+
+    const newBlog = {
+        title: blogTitle,
+        body: blogContent,
+    };
+}
+
