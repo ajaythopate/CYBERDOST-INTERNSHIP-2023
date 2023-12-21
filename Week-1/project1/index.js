@@ -50,5 +50,12 @@ function addblog() {
         title: blogTitle,
         body: blogContent,
     };
+
+    // Send the new blog to the server (not implemented in this example)
+    console.log('New blog:', newBlog);
+
+    const blogsContainer = document.getElementById('blogsContainer');
+
+
 }
 
