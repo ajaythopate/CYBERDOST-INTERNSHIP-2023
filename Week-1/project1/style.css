@@ -12,7 +12,7 @@
     }
     
     .container {
-      max-width: 800px;
+      max-width: 500px;
       margin: 0 auto;
       background-color: #fff;
       border: 1px solid #ccc;
@@ -21,6 +21,7 @@
     }
     
     #blogsContainer {
+        background-color: #444f5c;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -29,7 +30,8 @@
     .blogCard {
       width: 400px;
       margin-bottom: 20px;
-      margin-inline-start: 16%;
+      margin-top: 35px;
+      margin-inline-start: 4%;
       padding: 30px;
       border: 1px solid #ccc;
       
