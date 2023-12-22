@@ -34,7 +34,7 @@ function fetchBlogs() {
 fetchBlogs();
 
 //Add a new blog
-function addblog() {
+function addBlog() {
     const blogTitleInput = document.getElementById('blogTitleInput');
     const blogContentinput = document.getElementById('blogContentInput');
 
