@@ -36,7 +36,7 @@ const quizData = [
 ];
 
 
-const quize = document.getElementById('quiz')
+const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
@@ -50,7 +50,7 @@ let score = 0
 
 loadQuiz()
 
-function loadQuize() {
+function loadQuiz() {
     deselectAnswers()
 
     const currentQuizData = quizData[currentQuiz]
